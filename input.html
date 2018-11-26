@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Wisata Jember</title>
+    <link rel="stylesheet" href="input.css">
+    <style type="text/css">
+      body {background: #f4f5f7 no-repeat fixed;}
+    </style>
+    <link rel="icon" type="image/png" href="gambar/logo.png">
+    <script src="input.js">
+    </script>
+  </head>
+
+  <body>
+
+      <div id="header">
+        <img src="gambar/wallpaper1.jpg" width="100%">
+      </div>
+
+    <br>
+    <table id="tabel" width="100%" bgcolor="#c6d8f4">
+        <tr>
+          <td><font face="Cambria" size="5px"><b><center>Data Wisata Baru</center></b></font></td>
+        </tr>
+        </table>
+    <br><br><br>
+
+    <div id="content">
+      <form name="inputwisata" action="input.html" method="post">
+        <pre>
+          Wisata :              <select name="wisata">
+            <option>Pantai</option>
+            <option>Pemandian</option>
+            <option>Air Terjun</option>
+            <option>Pusat Penelitian</option>
+            </select>
+
+          Nama Wisata :         <input type="text" name="nama">
+
+          Gambar Wisata :       <input type="file" name="gambar">
+
+          Deskripsi Wisata :    <textarea name="deskripsi" cols="40" rows="5"></textarea>
+
+          Harga Tiket
+
+            1. Hari Biasa :     <input type="number" name="haribiasa">
+
+            2. Hari Libur :     <input type="number" name="harilibur">
+
+          Harga Parkir
+
+            1. Motor :          <input type="number" name="motor">
+            
+            2. Mobil :          <input type="number" name="mobil">
+
+          Rute Masuk Wisata :   <textarea name="rutemasuk" cols="40" rows="5"></textarea>
+        </pre>
+        <center>
+        <button type="button" onClick="terimainput()">Simpan</button>
+        <button type="reset">Ulangi</button>
+        <a href="Wiber.html"><button type="button">Kembali</button></a>
+      </center>
+      </form>
+      <br><br><br><br><center>
+      <table border="1px" id="tabelinput" bgcolor="white" width="100%">
+        <tr>
+          <td>Wisata</td>
+          <td>Nama</td>
+          <td>Gambar</td>
+          <td>Deskripsi Wisata</td>
+          <td>Tiket Hari Biasa</td>
+          <td>Tiket Hari Libur</td>
+          <td>Tiket Parkir Mobil</td>
+          <td>Tiket Parkir Motor</td>
+          <td>Rute Masuk</td>
+        </tr>
+      </table>
+    </center>
+      <br><br><br><br>
+    </div>
+
+    <div id="footer">
+      <div id="copyright">
+        </br>
+        <p>Wiber © 2018 <a href="Wiber.html"><img id="gambar" src="gambar/admin1.png"></a></br>
+          Nazilla A. dan Nurul A.</p>
+      </div>
+    </div>
+  </body>
+</html>

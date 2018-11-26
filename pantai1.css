@@ -1,0 +1,61 @@
+#header{
+  position: relative;
+}
+#icon{
+  position: absolute;
+}
+#gambar{
+  width: 250px;
+  height: 150px;
+}
+#menubawah{
+  width: 40px;
+  padding-right: 20px;
+  float: right;
+}
+#footer{
+  display: block;
+  height: 100px;
+  width:100%;
+  background-color: #c6d8f4;
+}
+#copyright{
+  margin: 0 30px 0 30px;
+}
+#judul{
+  padding: 10px 0px 10px 0px;
+}
+#gambaradmin{
+  width: 40px;
+  padding-right: 20px;
+  float: right;
+}
+#menu{
+  position: sticky;
+  top:0;
+}
+nav {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  background-color: #302e2d;
+  position:relative;
+
+}
+nav a {
+  font-family:Arial;
+  text-decoration:none;
+  color:white;
+  padding:5px 15px;
+  display:inline-block;
+  padding: 10px;
+}
+nav a:hover {
+  color:black;
+  background-color:#d3814a;
+}
+body{
+  height: 100%;
+  margin: 0px auto;
+  width: 100%;
+}
